@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F07284DD297CD51400E17ED0 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07284DC297CD51400E17ED0 /* InfoView.swift */; };
+		F08057AB2965EB590099CA6F /* VitaTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057AA2965EB590099CA6F /* VitaTableApp.swift */; };
+		F08057AF2965EB5B0099CA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08057AE2965EB5B0099CA6F /* Assets.xcassets */; };
+		F08057B22965EB5B0099CA6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08057B12965EB5B0099CA6F /* Preview Assets.xcassets */; };
+		F08057BC2965EB5B0099CA6F /* VitaTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057BB2965EB5B0099CA6F /* VitaTableTests.swift */; };
+		F08057C62965EB5B0099CA6F /* VitaTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057C52965EB5B0099CA6F /* VitaTableUITests.swift */; };
+		F08057C82965EB5B0099CA6F /* VitaTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057C72965EB5B0099CA6F /* VitaTableUITestsLaunchTests.swift */; };
+		F08057DB29691D3A0099CA6F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057DA29691D3A0099CA6F /* CartView.swift */; };
+		F08057DD29691DA60099CA6F /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057DC29691DA60099CA6F /* OptionsView.swift */; };
+		F08057DF29691E7B0099CA6F /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057DE29691E7B0099CA6F /* ScannerView.swift */; };
+		F08057E129691EA10099CA6F /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057E029691EA10099CA6F /* MetricsView.swift */; };
+		F08057E52969266B0099CA6F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08057E42969266B0099CA6F /* MainView.swift */; };
+		F0A05814297BAC0600CE321D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A05813297BAC0600CE321D /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F08057B82965EB5B0099CA6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F080579F2965EB580099CA6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08057A62965EB580099CA6F;
+			remoteInfo = VitaTable;
+		};
+		F08057C22965EB5B0099CA6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F080579F2965EB580099CA6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08057A62965EB580099CA6F;
+			remoteInfo = VitaTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F07284DC297CD51400E17ED0 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F08057A72965EB580099CA6F /* VitaTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitaTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08057AA2965EB590099CA6F /* VitaTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaTableApp.swift; sourceTree = "<group>"; };
+		F08057AE2965EB5B0099CA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = VitaTable/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		F08057B12965EB5B0099CA6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F08057B72965EB5B0099CA6F /* VitaTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08057BB2965EB5B0099CA6F /* VitaTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaTableTests.swift; sourceTree = "<group>"; };
+		F08057C12965EB5B0099CA6F /* VitaTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08057C52965EB5B0099CA6F /* VitaTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaTableUITests.swift; sourceTree = "<group>"; };
+		F08057C72965EB5B0099CA6F /* VitaTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F08057DA29691D3A0099CA6F /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		F08057DC29691DA60099CA6F /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		F08057DE29691E7B0099CA6F /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		F08057E029691EA10099CA6F /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		F08057E42969266B0099CA6F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F0A05813297BAC0600CE321D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08057A42965EB580099CA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08057B42965EB5B0099CA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08057BE2965EB5B0099CA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F080579E2965EB580099CA6F = {
+			isa = PBXGroup;
+			children = (
+				F08057A92965EB580099CA6F /* VitaTable */,
+				F08057BA2965EB5B0099CA6F /* VitaTableTests */,
+				F08057C42965EB5B0099CA6F /* VitaTableUITests */,
+				F08057A82965EB580099CA6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08057A82965EB580099CA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08057A72965EB580099CA6F /* VitaTable.app */,
+				F08057B72965EB5B0099CA6F /* VitaTableTests.xctest */,
+				F08057C12965EB5B0099CA6F /* VitaTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08057A92965EB580099CA6F /* VitaTable */ = {
+			isa = PBXGroup;
+			children = (
+				F08057AA2965EB590099CA6F /* VitaTableApp.swift */,
+				F07284DC297CD51400E17ED0 /* InfoView.swift */,
+				F08057E42969266B0099CA6F /* MainView.swift */,
+				F08057DE29691E7B0099CA6F /* ScannerView.swift */,
+				F08057DC29691DA60099CA6F /* OptionsView.swift */,
+				F08057E029691EA10099CA6F /* MetricsView.swift */,
+				F0A05813297BAC0600CE321D /* SettingsView.swift */,
+				F08057DA29691D3A0099CA6F /* CartView.swift */,
+				F08057AE2965EB5B0099CA6F /* Assets.xcassets */,
+				F08057B02965EB5B0099CA6F /* Preview Content */,
+			);
+			path = VitaTable;
+			sourceTree = "<group>";
+		};
+		F08057B02965EB5B0099CA6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F08057B12965EB5B0099CA6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F08057BA2965EB5B0099CA6F /* VitaTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				F08057BB2965EB5B0099CA6F /* VitaTableTests.swift */,
+			);
+			path = VitaTableTests;
+			sourceTree = "<group>";
+		};
+		F08057C42965EB5B0099CA6F /* VitaTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F08057C52965EB5B0099CA6F /* VitaTableUITests.swift */,
+				F08057C72965EB5B0099CA6F /* VitaTableUITestsLaunchTests.swift */,
+			);
+			path = VitaTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08057A62965EB580099CA6F /* VitaTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08057CB2965EB5B0099CA6F /* Build configuration list for PBXNativeTarget "VitaTable" */;
+			buildPhases = (
+				F08057A32965EB580099CA6F /* Sources */,
+				F08057A42965EB580099CA6F /* Frameworks */,
+				F08057A52965EB580099CA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitaTable;
+			productName = VitaTable;
+			productReference = F08057A72965EB580099CA6F /* VitaTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F08057B62965EB5B0099CA6F /* VitaTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08057CE2965EB5B0099CA6F /* Build configuration list for PBXNativeTarget "VitaTableTests" */;
+			buildPhases = (
+				F08057B32965EB5B0099CA6F /* Sources */,
+				F08057B42965EB5B0099CA6F /* Frameworks */,
+				F08057B52965EB5B0099CA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08057B92965EB5B0099CA6F /* PBXTargetDependency */,
+			);
+			name = VitaTableTests;
+			productName = VitaTableTests;
+			productReference = F08057B72965EB5B0099CA6F /* VitaTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08057C02965EB5B0099CA6F /* VitaTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08057D12965EB5B0099CA6F /* Build configuration list for PBXNativeTarget "VitaTableUITests" */;
+			buildPhases = (
+				F08057BD2965EB5B0099CA6F /* Sources */,
+				F08057BE2965EB5B0099CA6F /* Frameworks */,
+				F08057BF2965EB5B0099CA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08057C32965EB5B0099CA6F /* PBXTargetDependency */,
+			);
+			name = VitaTableUITests;
+			productName = VitaTableUITests;
+			productReference = F08057C12965EB5B0099CA6F /* VitaTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F080579F2965EB580099CA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F08057A62965EB580099CA6F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F08057B62965EB5B0099CA6F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F08057A62965EB580099CA6F;
+					};
+					F08057C02965EB5B0099CA6F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F08057A62965EB580099CA6F;
+					};
+				};
+			};
+			buildConfigurationList = F08057A22965EB580099CA6F /* Build configuration list for PBXProject "VitaTable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F080579E2965EB580099CA6F;
+			productRefGroup = F08057A82965EB580099CA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08057A62965EB580099CA6F /* VitaTable */,
+				F08057B62965EB5B0099CA6F /* VitaTableTests */,
+				F08057C02965EB5B0099CA6F /* VitaTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08057A52965EB580099CA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08057B22965EB5B0099CA6F /* Preview Assets.xcassets in Resources */,
+				F08057AF2965EB5B0099CA6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08057B52965EB5B0099CA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08057BF2965EB5B0099CA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08057A32965EB580099CA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07284DD297CD51400E17ED0 /* InfoView.swift in Sources */,
+				F0A05814297BAC0600CE321D /* SettingsView.swift in Sources */,
+				F08057E52969266B0099CA6F /* MainView.swift in Sources */,
+				F08057DB29691D3A0099CA6F /* CartView.swift in Sources */,
+				F08057DD29691DA60099CA6F /* OptionsView.swift in Sources */,
+				F08057AB2965EB590099CA6F /* VitaTableApp.swift in Sources */,
+				F08057E129691EA10099CA6F /* MetricsView.swift in Sources */,
+				F08057DF29691E7B0099CA6F /* ScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08057B32965EB5B0099CA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08057BC2965EB5B0099CA6F /* VitaTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08057BD2965EB5B0099CA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08057C62965EB5B0099CA6F /* VitaTableUITests.swift in Sources */,
+				F08057C82965EB5B0099CA6F /* VitaTableUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F08057B92965EB5B0099CA6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08057A62965EB580099CA6F /* VitaTable */;
+			targetProxy = F08057B82965EB5B0099CA6F /* PBXContainerItemProxy */;
+		};
+		F08057C32965EB5B0099CA6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08057A62965EB580099CA6F /* VitaTable */;
+			targetProxy = F08057C22965EB5B0099CA6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F08057C92965EB5B0099CA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F08057CA2965EB5B0099CA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F08057CC2965EB5B0099CA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VitaTable/Preview Content\"";
+				DEVELOPMENT_TEAM = CSG84864FN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed to scan product barcodes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collin0x777.VitaTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F08057CD2965EB5B0099CA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VitaTable/Preview Content\"";
+				DEVELOPMENT_TEAM = CSG84864FN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed to scan product barcodes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collin0x777.VitaTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F08057CF2965EB5B0099CA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collin0x777.VitaTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitaTable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitaTable";
+			};
+			name = Debug;
+		};
+		F08057D02965EB5B0099CA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collin0x777.VitaTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitaTable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitaTable";
+			};
+			name = Release;
+		};
+		F08057D22965EB5B0099CA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collin0x777.VitaTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitaTable;
+			};
+			name = Debug;
+		};
+		F08057D32965EB5B0099CA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collin0x777.VitaTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitaTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08057A22965EB580099CA6F /* Build configuration list for PBXProject "VitaTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08057C92965EB5B0099CA6F /* Debug */,
+				F08057CA2965EB5B0099CA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08057CB2965EB5B0099CA6F /* Build configuration list for PBXNativeTarget "VitaTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08057CC2965EB5B0099CA6F /* Debug */,
+				F08057CD2965EB5B0099CA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08057CE2965EB5B0099CA6F /* Build configuration list for PBXNativeTarget "VitaTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08057CF2965EB5B0099CA6F /* Debug */,
+				F08057D02965EB5B0099CA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08057D12965EB5B0099CA6F /* Build configuration list for PBXNativeTarget "VitaTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08057D22965EB5B0099CA6F /* Debug */,
+				F08057D32965EB5B0099CA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F080579F2965EB580099CA6F /* Project object */;
+}
